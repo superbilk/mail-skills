@@ -1,2 +1,2 @@
-.sass-cache/*
-!.sass-cache/.gitkeep
+# Ignore sass-cache files.
+.sass-cache
