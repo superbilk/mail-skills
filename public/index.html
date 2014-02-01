@@ -22,13 +22,32 @@
 
   <body>
 
-    <div class="blog-masthead">
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="container">
-        <nav class="blog-nav">
-          <a href="/"><img class="logo" src="/images/logo.png" width="204" height="144" alt="Logo"/></a>
-          <a class="blog-nav-item active" href="/">Product Owner Course</a>
-          <a class="blog-nav-item" href="#" data-toggle="modal" data-target="#contact-modal">Contribute and Contact</a>
-        </nav>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img class="logo" src="/images/logo.png" width="204" height="144" alt="Logo"/></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Product Owner Course</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">More Courses <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Coming soon...</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#contact" data-toggle="modal" data-target="#contact-modal">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
 
@@ -141,7 +160,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-    <script src="/javascripts/bootstrap/modal.min.js"></script>
+    <script src="/javascripts/bootstrap/bootstrap.min.js"></script>
     <script src="/javascripts/mailchimp.min.js"></script>
   </body>
 </html>
