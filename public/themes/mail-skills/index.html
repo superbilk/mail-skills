@@ -36,8 +36,11 @@
           <div class="content">
             {{ content|split('<split>')[0] }}
             <p>Ah, one more thing: It’s free!</p>
-            {% include '_mailchimp_form.html.twig' %}
-
+            
+            <div class="well">
+              <h2>Sign up for Mail-Skills</h2>
+              {% include '_mailchimp_form.html.twig' %}
+            </div>
           </div><!-- /.blog-post -->
         </div>
 

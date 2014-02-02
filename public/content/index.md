@@ -8,11 +8,6 @@ Are you starting out in a new Agile Environment or a Scrum Role? Or just wonderi
 
 We run free email courses that introduce you to methods and skills that will make you a better, more effective Product Owner. Each course has 10 topics in total - 1 topic per week.
 
-<div class="well well-lg text-center">
-  <p>Our first course <em>Product Owner</em> is available soon. You can sign up right now and we'll let you know when it starts.</p>
-  <a href="/courses/product-owner"><button type="button" class="btn btn-primary btn-lg">Learn more about the free <em>Product Owner Course</em></button></a>
-</div>
-
 We introduce each topic, setting the context: When is this method helpful. How did it work for us. ..
 Then we add the single best link on the topic we have come across in years and years of reading
 about Agile and PO topics. That one link we constantly send out to friends and colleagues whenever they
