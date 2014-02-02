@@ -7,59 +7,50 @@
       <input type="email" value="" name="EMAIL" class="required email" placeholder="Enter your email address" id="mce-EMAIL">
     </div>
 
-    <div class="panel-group" id="accordion">
+    <div id="collapseOne" class="collapse">
       <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-              Optional: Add more courses and your name
-            </a>
-          </h4>
-        </div>
-        <div id="collapseOne" class="panel-collapse collapse">
-          <div class="panel-body">
-            <div class="mc-field-group">
-              <label class="visible-xs" for="mce-FNAME">First Name </label>
-              <input type="text" value="" name="FNAME" class="" placeholder="First Name" id="mce-FNAME">
-            </div>
-            <div class="mc-field-group">
-              <label class="visible-xs" for="mce-LNAME">Last Name </label>
-              <input type="text" value="" name="LNAME" class="" placeholder="Last Name" id="mce-LNAME">
-            </div>
+        <div class="panel-body">
+          <div class="mc-field-group">
+            <label class="visible-xs" for="mce-FNAME">First Name </label>
+            <input type="text" value="" name="FNAME" class="" placeholder="First Name" id="mce-FNAME">
+          </div>
+          <div class="mc-field-group">
+            <label class="visible-xs" for="mce-LNAME">Last Name </label>
+            <input type="text" value="" name="LNAME" class="" placeholder="Last Name" id="mce-LNAME">
+          </div>
 
-            <div class="mc-field-group input-group">
-              <h3>Choose your courses </h3>
-              <ul>
-                <li>
-                  <input type="checkbox" value="1" name="group[14313][1]" id="mce-group[14313]-14313-0" {% if meta.course == "product-owner" %} checked {% endif %}>
-                  <label for="mce-group[14313]-14313-0"> Product Owner</label>
-                </li>
-                <li>
-                  <input type="checkbox" value="2" name="group[14313][2]" id="mce-group[14313]-14313-1" {% if meta.course == "scrum-master" %} checked {% endif %}>
-                  <label for="mce-group[14313]-14313-1"> Scrum Master</label>
-                </li>
-                <li>
-                  <input type="checkbox" value="4" name="group[14313][4]" id="mce-group[14313]-14313-2" {% if meta.course == "writing-well" %} checked {% endif %}>
-                  <label for="mce-group[14313]-14313-2"> Writing Well</label>
-                </li>
-                <li>
-                  <input type="checkbox" value="8" name="group[14313][8]" id="mce-group[14313]-14313-3" {% if meta.course == "agile-developer" %} checked {% endif %}>
-                  <label for="mce-group[14313]-14313-3"> Agile Developer</label>
-                </li>
-                <li>
-                  <input type="checkbox" value="16" name="group[14313][16]" id="mce-group[14313]-14313-4" {% if meta.course == "lean-ux-design" %} checked {% endif %}>
-                  <label for="mce-group[14313]-14313-4"> Lean UX / Design</label>
-                </li>
-                <li>
-                  <input type="checkbox" value="32" name="group[14313][32]" id="mce-group[14313]-14313-5" {% if meta.course == "lean-product-development" %} checked {% endif %}>
-                  <label for="mce-group[14313]-14313-5"> Lean Product Development</label>
-                </li>
-                <li>
-                  <input type="checkbox" value="64" name="group[14313][64]" id="mce-group[14313]-14313-6" {% if meta.course == "advanced-product-owner" %} checked {% endif %}>
-                  <label for="mce-group[14313]-14313-6"> Advanced Product Owner</label>
-                </li>
-              </ul>
-            </div>
+          <div class="mc-field-group input-group">
+            <h3>Choose your courses </h3>
+            <ul>
+              <li>
+                <input type="checkbox" value="1" name="group[14313][1]" id="mce-group[14313]-14313-0" {% if meta.course == "product-owner" %} checked {% endif %}>
+                <label for="mce-group[14313]-14313-0"> Product Owner</label>
+              </li>
+              <li>
+                <input type="checkbox" value="2" name="group[14313][2]" id="mce-group[14313]-14313-1" {% if meta.course == "scrum-master" %} checked {% endif %}>
+                <label for="mce-group[14313]-14313-1"> Scrum Master</label>
+              </li>
+              <li>
+                <input type="checkbox" value="4" name="group[14313][4]" id="mce-group[14313]-14313-2" {% if meta.course == "writing-well" %} checked {% endif %}>
+                <label for="mce-group[14313]-14313-2"> Writing Well</label>
+              </li>
+              <li>
+                <input type="checkbox" value="8" name="group[14313][8]" id="mce-group[14313]-14313-3" {% if meta.course == "agile-developer" %} checked {% endif %}>
+                <label for="mce-group[14313]-14313-3"> Agile Developer</label>
+              </li>
+              <li>
+                <input type="checkbox" value="16" name="group[14313][16]" id="mce-group[14313]-14313-4" {% if meta.course == "lean-ux-design" %} checked {% endif %}>
+                <label for="mce-group[14313]-14313-4"> Lean UX / Design</label>
+              </li>
+              <li>
+                <input type="checkbox" value="32" name="group[14313][32]" id="mce-group[14313]-14313-5" {% if meta.course == "lean-product-development" %} checked {% endif %}>
+                <label for="mce-group[14313]-14313-5"> Lean Product Development</label>
+              </li>
+              <li>
+                <input type="checkbox" value="64" name="group[14313][64]" id="mce-group[14313]-14313-6" {% if meta.course == "advanced-product-owner" %} checked {% endif %}>
+                <label for="mce-group[14313]-14313-6"> Advanced Product Owner</label>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -72,13 +63,12 @@
      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
     <div style="position: absolute; left: -5000px;"><input type="text" name="b_d917e83515963586fa0d51ae4_92fb32fd8a" value=""></div>
 
-     <div class="">
-      <input type="submit" value="Sign up now!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-primary">
-      <div class="poweredWrapper pull-right">
-        <span class="poweredBy">
-          <a href="http://www.mailchimp.com/monkey-rewards/?utm_source=freemium_newsletter&utm_medium=email&utm_campaign=monkey_rewards&aid=d917e83515963586fa0d51ae4&afl=1"><img src="http://cdn-images.mailchimp.com/monkey_rewards/MC_MonkeyReward_15.png" border="0" alt="Email Marketing Powered by MailChimp" title="MailChimp Email Marketing" width="139" height="54"></a>
-        </span>
-      </div>
+    <button type="submit" value="Sign up now!" name="subscribe" class="mc-embedded-subscribe btn btn-lg btn-primary">Sign up now!</button>
+    <button type="button" class="mc-embedded-subscribe btn btn-default" data-toggle="collapse" data-target="#collapseOne">+ Add course</button>
+    <div class="poweredWrapper pull-right">
+      <span class="poweredBy">
+        <a href="http://www.mailchimp.com/monkey-rewards/?utm_source=freemium_newsletter&utm_medium=email&utm_campaign=monkey_rewards&aid=d917e83515963586fa0d51ae4&afl=1"><img src="http://cdn-images.mailchimp.com/monkey_rewards/MC_MonkeyReward_15.png" border="0" alt="Email Marketing Powered by MailChimp" title="MailChimp Email Marketing" width="139" height="54"></a>
+      </span>
     </div>
     <div class="clearfix"></div>
   </form>
