@@ -1,0 +1,3 @@
+[submodule "Pico"]
+	path = Pico
+	url = git@github.com:gilbitron/Pico.git
