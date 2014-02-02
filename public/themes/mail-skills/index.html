@@ -37,25 +37,28 @@
           <div class="content">
             {{ content|split('<split>')[0] }}
             {% include '_mailchimp_form.html.twig' %}
+
           </div><!-- /.blog-post -->
         </div>
 
-        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+        <div class="col-sm-3 col-sm-offset-1">
           <div class="sidebar-module sidebar-module-inset">
-            <h4>What is Mail-Skills</h4>
+            <h4>What is <em>Mail-Skills</em></h4>
             <p>Mail-Skills is an online course. You'll receive one email per week. No strings attached.</p>
           </div>
           <div class="sidebar-module">
             <h4>Course topics</h4>
-            <ol class="list-unstyled">
+            <div class="topicslist">
               {{ content|split('<split>')[1] }}
-            </ol>
+            </div>
           </div>
           <div class="sidebar-module">
             <h4>Who is Mail-Skills</h4>
             <ol class="list-unstyled">
               <li><a href="https://twitter.com/findingmarbles" target="_blank">Corinna</a></li>
+              <li><a href="https://twitter.com/findingmarbles" class="twitter-follow-button" data-show-count="false" data-lang="en" data-size="small" data-show-screen-name="true" data-dnt="true">Follow @findingmarbles</a></li>
               <li><a href="https://twitter.com/superbilk" target="_blank">Christian</a></li>
+              <li><a href="https://twitter.com/superbilk" class="twitter-follow-button" data-show-count="false" data-lang="en" data-size="small" data-show-screen-name="true" data-dnt="true">Follow @findingmarbles</a></li>
             </ol>
           </div>
         </div><!-- /.blog-sidebar -->
@@ -78,5 +81,6 @@
     <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
     <script src="{{ theme_url }}/javascripts/bootstrap/bootstrap.min.js"></script>
     <script src="{{ theme_url }}/javascripts/mailchimp.min.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   </body>
 </html>
