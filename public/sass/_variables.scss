@@ -314,7 +314,7 @@ $navbar-default-border:              darken($navbar-default-bg, 6.5%);
 
 // Navbar links
 $navbar-default-link-color:                  #fff;
-$navbar-default-link-hover-color:            darken($navbar-default-link-color, 10%);
+$navbar-default-link-hover-color:            lighten($brand-mail-skills, 25%);
 //$navbar-default-link-hover-bg:             transparent;
 $navbar-default-link-active-color:           #fff;
 //$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%);
