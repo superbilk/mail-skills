@@ -308,7 +308,7 @@ $btn-signup-border:             darken($btn-signup-bg, 5%);
 //##
 
 // Basics of a navbar
-$navbar-height:                      100px;
+$navbar-height:                      102px;
 //$navbar-margin-bottom:             $line-height-computed;
 //$navbar-border-radius:             $border-radius-base;
 //$navbar-padding-horizontal:        floor(($grid-gutter-width / 2));
@@ -324,7 +324,7 @@ $navbar-default-link-color:                  #fff;
 $navbar-default-link-hover-color:            lighten($brand-mail-skills, 25%);
 //$navbar-default-link-hover-bg:             transparent;
 $navbar-default-link-active-color:           #fff;
-//$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%);
+$navbar-default-link-active-bg:              rgba(0,0,0,.1);
 //$navbar-default-link-disabled-color:       #ccc;
 //$navbar-default-link-disabled-bg:          transparent;
 
