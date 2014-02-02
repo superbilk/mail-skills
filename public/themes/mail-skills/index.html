@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="{{ theme_url }}/favicon.ico" />
 
     <title>Product Owner Course | Mail-Skills</title>
 
@@ -22,42 +22,13 @@
 
   <body>
 
-    <!-- Static navbar -->
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">
-            <img class="logo" src="{{ theme_url }}/images/logo.png" width="204" height="144" alt="Logo"/>
-          </a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="/">Product Owner Course</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">More Courses <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Coming soon...</a></li>
-              </ul>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#contact" data-toggle="modal" data-target="#contact-modal">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+    {% include '_navbar.html.twig' %}
 
     <div class="container">
 
       <div class="page-header">
-        <h1>Product Owner Course</h1>
-        <p class="lead subh1">Methods and skills that will make you better and more effective in your new role</p>
+        <h1>{{ meta.title }}</h1>
+        <p class="lead subh1">{{ meta.subtitle }}</p>
       </div>
 
       <div class="row">
@@ -65,33 +36,9 @@
         <div class="col-sm-8 blog-main">
 
           <div class="blog-post">
-            <p>Are you starting out as a Scrum Product Owner? Or are you a Product Manager wondering what methods people in the Agile camp are using? Great, you’ve come to the right <s>place</s> mailing list!</p>
+          {{ content|split('<split>')[0] }}
 
-            <p>We are working on an email course that introduces you to methods and skills that will make you a better, more effective Product Owner. We’ll start with basics such as the User Story format (week 1), move on to Definition of Done (week 6) and end near Impact Mapping (week 9). We’re planning 10 topics in total - 1 topic per week.</p>
-
-            <p>Well, it’s not really a course in so far, as we’re not creating original material. Instead we will send you the best link on the topic that we know of. The one we constantly send out to friends and colleagues when they ask us about that topic.
-            Additionally, we provide context: When is this method useful, how did it work for us, etc.</p>
-
-            <p>Would you like get a smoother start into your new role? Then sign up and be the first one to receive the weekly featured skill when we’re starting (probably within Feb 2014).</p>
-
-            <p>Ah, one more thing: It’s free!</p>
-
-            <!-- Begin MailChimp Signup Form -->
-            <div id="mc_embed_signup">
-              <form action="http://superbilk.us2.list-manage.com/subscribe/post?u=d917e83515963586fa0d51ae4&amp;id=92fb32fd8a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-
-                <div class="mc-field-group">
-                  <input type="email" value="" placeholder="Enter your email address" name="EMAIL" class="required email" id="mce-EMAIL">
-                </div>
-                <div id="mce-responses" class="clear">
-                  <div class="response" id="mce-error-response" style="display:none"></div>
-                  <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;"><input type="text" name="b_d917e83515963586fa0d51ae4_92fb32fd8a" value=""></div>
-                <input type="submit" value="Sign up now!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-signup">
-                <p class="small">We won’t give your email address to anyone and won’t spam you either!</p>
-              </form>
-            </div>
+          {% include '_mailchimp_form.html.twig' %}
 
           </div><!-- /.blog-post -->
 
@@ -105,17 +52,7 @@
           <div class="sidebar-module">
             <h4>Course topics</h4>
             <ol class="list-unstyled">
-              <li><a href="#">#0 - Introduction </a></li>
-              <li><a href="#">#1 - Alternative User Story format</a></li>
-              <li><a href="#">#2 - Saying no</a></li>
-              <li><a href="#">#3 - Sprint goal</a></li>
-              <li><a href="#">#4 - Story splitting</a></li>
-              <li><a href="#">#5 - Backlog tools</a></li>
-              <li><a href="#">#6 - Definition of ready</a></li>
-              <li><a href="#">#7 - Story mapping</a></li>
-              <li><a href="#">#8 - Design Studio</a></li>
-              <li><a href="#">#9 - Impact Mapping</a></li>
-              <li><a href="#">#10 - Pair up</a></li>
+              {{ content|split('<split>')[1] }}
             </ol>
           </div>
           <div class="sidebar-module">
@@ -132,7 +69,6 @@
     </div><!-- /.container -->
 
     <div class="blog-footer">
-      <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
       <p>
         <a href="#">Back to top</a>
       </p>
