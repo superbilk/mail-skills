@@ -15,7 +15,7 @@ Would you like get a smoother start into your new role? Then sign up and be the 
 <split>
 
 * Introduction to the role
-* Alternative User Story format
+* A better User Story format
 * Saying no
 * Sprint goal
 * Story splitting
