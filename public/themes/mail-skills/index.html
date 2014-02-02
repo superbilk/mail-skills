@@ -36,9 +36,8 @@
         <div class="col-sm-8 content-main">
           <div class="content">
             {{ content|split('<split>')[0] }}
-            {% if meta.title == "Product Owner Course" %}
-              {% include '_mailchimp_form.html.twig' %}
-            {% endif %}
+            <p>Ah, one more thing: It’s free!</p>
+            {% include '_mailchimp_form.html.twig' %}
 
           </div><!-- /.blog-post -->
         </div>
