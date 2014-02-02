@@ -23,7 +23,7 @@
             <h3>Choose your courses </h3>
             <ul>
               <li>
-                <input type="checkbox" value="1" name="group[14313][1]" id="mce-group[14313]-14313-0" {% if meta.course == "product-owner" %} checked {% endif %}>
+                <input type="checkbox" value="1" name="group[14313][1]" id="mce-group[14313]-14313-0" {% if (meta.course == "product-owner") and (is_front_page == FALSE) %} checked {% endif %}>
                 <label for="mce-group[14313]-14313-0"> Product Owner</label>
               </li>
               <li>
