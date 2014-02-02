@@ -334,9 +334,9 @@ $navbar-default-link-active-bg:              rgba(0,0,0,.1);
 //$navbar-default-brand-hover-bg:            transparent;
 
 // Navbar toggle
-$navbar-default-toggle-hover-bg:           darken($navbar-default-bg, 6.5%);
-$navbar-default-toggle-icon-bar-bg:        darken($navbar-default-bg, 30%);
-$navbar-default-toggle-border-color:       darken($navbar-default-bg, 30%);
+$navbar-default-toggle-hover-bg:              rgba(0,0,0,.1);
+$navbar-default-toggle-icon-bar-bg:           #fff;
+$navbar-default-toggle-border-color:          #fff;
 
 // Inverted navbar
 // Reset inverted navbar basics
