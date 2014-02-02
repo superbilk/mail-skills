@@ -36,17 +36,17 @@
           <div class="content">
             {{ content|split('<split>')[0] }}
             <p>Ah, one more thing: It’s free!</p>
-            
+
             <div class="well">
               <h2>Sign up for Mail-Skills</h2>
               {% include '_mailchimp_form.html.twig' %}
             </div>
-          </div><!-- /.blog-post -->
+          </div>
         </div>
 
         <div class="col-sm-3 col-sm-offset-1">
           <div class="sidebar-module sidebar-module-inset">
-            <h4>What is <em>Mail-Skills</em></h4>
+            <h4>What is Mail-Skills</h4>
             <p>We send you an email with the best link on the topic that we know of. The one we constantly send out to friends and colleagues when they ask us about that topic.</p>
           </div>
           <div class="sidebar-module">
@@ -59,10 +59,8 @@
             <h4>Who is Mail-Skills</h4>
             <ol class="list-unstyled">
               <li><a href="https://twitter.com/findingmarbles" target="_blank">Corinna</a></li>
-              <li><a href="https://twitter.com/findingmarbles" class="twitter-follow-button" data-show-count="false" data-lang="en" data-size="small" data-show-screen-name="true" data-dnt="true">Follow @findingmarbles</a></li>
               <li><a href="https://twitter.com/superbilk" target="_blank">Christian</a></li>
-              <li><a href="https://twitter.com/superbilk" class="twitter-follow-button" data-show-count="false" data-lang="en" data-size="small" data-show-screen-name="true" data-dnt="true">Follow @findingmarbles</a></li>
-            </ol>
+           </ol>
           </div>
         </div><!-- /.blog-sidebar -->
 
@@ -84,7 +82,6 @@
     <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
     <script src="{{ theme_url }}/javascripts/bootstrap/bootstrap.min.js"></script>
     <script src="{{ theme_url }}/javascripts/mailchimp.min.js"></script>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     {% if config.production %}
       {{ include("_piwik.html.twig") }}
     {% endif %}
