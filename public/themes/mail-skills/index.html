@@ -33,16 +33,12 @@
 
       <div class="row">
 
-        <div class="col-sm-8 blog-main">
-
-          <div class="blog-post">
-          {{ content|split('<split>')[0] }}
-
-          {% include '_mailchimp_form.html.twig' %}
-
+        <div class="col-sm-8 content-main">
+          <div class="content">
+            {{ content|split('<split>')[0] }}
+            {% include '_mailchimp_form.html.twig' %}
           </div><!-- /.blog-post -->
-
-        </div><!-- /.blog-main -->
+        </div>
 
         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
           <div class="sidebar-module sidebar-module-inset">
@@ -68,31 +64,13 @@
 
     </div><!-- /.container -->
 
-    <div class="blog-footer">
+    <div class="footer">
       <p>
         <a href="#">Back to top</a>
       </p>
     </div>
 
-    <!-- About Modal
-    ================================================== -->
-    <div class="modal fade" id="contact-modal">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title">Get in touch</h4>
-          </div>
-          <div class="modal-body">
-            <p>Mail-Skills.com is a project by <a href="https://twitter.com/findingmarbles" target="_blank">Corinna Baldauf</a> and <a href="https://twitter.com/superbilk" target="_blank">Christian Schmidt</a>.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
+    {{ include('_contact-modal.html.twig') }}
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

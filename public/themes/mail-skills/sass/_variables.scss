@@ -7,6 +7,15 @@
 // Variables
 // --------------------------------------------------
 
+
+//== My variables
+$brand-mail-skills: #E7BE71;
+
+$btn-signup-color:              #fff;
+$btn-signup-bg:                 $brand-mail-skills;
+$btn-signup-border:             darken($btn-signup-bg, 5%);
+
+
 //== Colors
 //
 //## Gray and brand colors for use across Bootstrap.
@@ -22,8 +31,6 @@
 //$brand-info:            #5bc0de;
 //$brand-warning:         #f0ad4e;
 //$brand-danger:          #d9534f;
-
-$brand-mail-skills: #E7BE71;
 
 //== Scaffolding
 //
