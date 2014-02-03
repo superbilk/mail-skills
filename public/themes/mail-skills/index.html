@@ -37,7 +37,7 @@
             {{ content|split('<split>')[0] }}
             <p>Ah, one more thing: It’s free!</p>
 
-            <div class="well">
+            <div class="signup-well">
               <h2>Sign up for Mail-Skills {% if is_front_page == FALSE %}<em>{{ meta.title }}</em>{% endif %}</h2>
               {% include '_mailchimp_form.html.twig' %}
             </div>

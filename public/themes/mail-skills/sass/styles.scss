@@ -66,12 +66,23 @@ label {
   font-size: 16px;
 }
 
-.well {
+.signup-well {
+  @extend .well;
   margin: 30px 0px;
   background-image: url("../images/manila-bg.jpg");
   background-repeat: repeat;
+  border: none;
 }
 
 .poweredBy img {
   margin-top: 13px;
+}
+
+.btn-xlg {
+    padding: 18px 28px;
+    font-size: 22px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
 }
