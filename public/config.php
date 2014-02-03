@@ -35,3 +35,5 @@ else
   $config['production'] = TRUE;
   $config['development'] = FALSE;
 }
+
+$config['front_page'] = "/courses/product-owner";
