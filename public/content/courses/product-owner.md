@@ -23,12 +23,12 @@ the weekly featured skill when we’re starting (probably within Feb 2014).
 
 * Introduction to the role
 * A better User Story format
-* Saying no
+* Saying No
 * Sprint goal
 * Story splitting
 * Backlog tools
-* Definition of ready
-* Story mapping
+* Definition of Ready
+* Story Mapping
 * Design Studio
 * Impact Mapping
 * Pair up
