@@ -44,18 +44,20 @@
         </div>
 
         <div class="col-sm-3 col-sm-offset-1">
+          {% if content|split('<split>')[1] is not empty %}
+          <div class="sidebar-module">
+            <h3>Course topics</h3>
+            <div class="topicslist">
+              {{ content|split('<split>')[1] }}
+            </div>
+          </div>
+          {% endif %}
           <div class="sidebar-module sidebar-module-inset">
             <h4>What is Mail-Skills</h4>
             <p>We send you an email with the best link on the topic that we know of. The one we constantly send out to friends and colleagues when they ask us about that topic.</p>
             <p>You can read more about Mail-Skills in our Blogs:</p>
             <p><a href="http://finding-marbles.com/2014/02/05/mail-skills-methods-for-new-product-owners/">Mail-Skills: Methods for new Product Owners</a> by Corinna</p>
             <p><a href="http://superbilk.com/2014/02/darf-ich-vorstellen-mail-skills-methoden-fuer-neue-product-owner/">Darf ich vorstellen: Mail-Skills – Methoden für neue Product Owner</a> by Christian (Article is in German)</p>
-          </div>
-          <div class="sidebar-module">
-            <h4>Course topics</h4>
-            <div class="topicslist">
-              {{ content|split('<split>')[1] }}
-            </div>
           </div>
           <div class="sidebar-module">
             <h4>Who is Mail-Skills</h4>
