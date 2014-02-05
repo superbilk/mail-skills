@@ -20,7 +20,6 @@
   </head>
 
   <body>
-
     {% include '_navbar.html.twig' %}
 
     <div class="container">
@@ -38,7 +37,7 @@
             <p>Ah, one more thing: It’s free!</p>
 
             <div class="signup-well">
-              <h2>Sign up for Mail-Skills {% if is_front_page == FALSE %}<em>{{ meta.title }}</em>{% endif %}</h2>
+              <h2>Sign up for Mail-Skills <em>{{ meta.title }}</em></h2>
               {% include '_mailchimp_form.html.twig' %}
             </div>
           </div>
@@ -48,6 +47,9 @@
           <div class="sidebar-module sidebar-module-inset">
             <h4>What is Mail-Skills</h4>
             <p>We send you an email with the best link on the topic that we know of. The one we constantly send out to friends and colleagues when they ask us about that topic.</p>
+            <p>You can read more about Mail-Skills in our Blogs:</p>
+            <p><a href="http://finding-marbles.com/2014/02/05/mail-skills-methods-for-new-product-owners/">Mail-Skills: Methods for new Product Owners</a> by Corinna</p>
+            <p><a href="http://superbilk.com/2014/02/darf-ich-vorstellen-mail-skills-methoden-fuer-neue-product-owner/">Darf ich vorstellen: Mail-Skills – Methoden für neue Product Owner</a> by Christian (Article is in German)</p>
           </div>
           <div class="sidebar-module">
             <h4>Course topics</h4>
@@ -70,7 +72,7 @@
 
     <div class="footer">
       <p>
-        <a href="#">Back to top</a>
+        <a href="#">Back to top <span class="glyphicon glyphicon-arrow-up"></span></a>
       </p>
     </div>
 
@@ -79,7 +81,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="{{ theme_url }}/javascripts/jquery-2.1.0.min.js"></script>
     <script src="{{ theme_url }}/javascripts/bootstrap/bootstrap.min.js"></script>
     <script src="{{ theme_url }}/javascripts/mailchimp.min.js"></script>
     {% if config.production %}
