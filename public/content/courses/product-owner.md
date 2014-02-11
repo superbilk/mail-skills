@@ -21,13 +21,13 @@ the weekly featured skill when we’re starting (probably within Feb 2014).
 
 <split>
 
-* Introduction to the role
-* A better User Story format
-* Saying No
+* Product Ownership in a Nutshell
+* All about User Stories
 * Sprint goal
-* Story splitting
-* Backlog tools
 * Definition of Ready
+* Story splitting
+* Saying No
+* Business Model Canvas
 * Story Mapping
 * Design Studio
 * Impact Mapping
