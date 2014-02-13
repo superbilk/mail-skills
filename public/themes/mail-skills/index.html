@@ -28,7 +28,6 @@
         <h1>{{ meta.title }}</h1>
         <p class="lead subh1">{{ meta.subtitle }}</p>
       </div>
-
       <div class="row">
 
         <div class="col-sm-8 content-main">
@@ -40,8 +39,8 @@
               <h2>Sign up for Mail-Skills <em>{{ meta.title }}</em></h2>
               {% include '_mailchimp_form.html.twig' %}
             </div>
+            <div id="socialshareprivacy"></div>
           </div>
-          <div id="socialshareprivacy"></div>
         </div>
 
         <div class="col-sm-3 col-sm-offset-1">
@@ -68,7 +67,6 @@
            </ol>
           </div>
         </div><!-- /.blog-sidebar -->
-
       </div><!-- /.row -->
 
     </div><!-- /.container -->
@@ -107,8 +105,7 @@
             "css_path"  : "{{ theme_url }}/javascripts/socialshareprivacy/socialshareprivacy.css",
             "lang_path" : "{{ theme_url }}/javascripts/socialshareprivacy/lang/",
             "language"  : "en",
-            "uri"       : "http://mail-skills.com",
-            'alignment' : 'vertical'
+            "uri"       : "http://mail-skills.com"
           });
         }
       });
