@@ -83,9 +83,9 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{{ theme_url }}/javascripts/jquery-2.1.0.min.js"></script>
-    <script src="{{ theme_url }}/javascripts/bootstrap/bootstrap.min.js"></script>
-    <script src="{{ theme_url }}/javascripts/mailchimp.min.js"></script>
+    {{ js("jquery-2.1.0.min.js") }}
+    {{ js("bootstrap/bootstrap.min.js") }}
+    {{ js("mailchimp.min.js") }}
     {% if config.production %}
       {{ include("_piwik.html.twig") }}
     {% endif %}

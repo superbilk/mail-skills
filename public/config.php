@@ -25,6 +25,8 @@ $config['custom_setting'] = 'Hello'; 	// Can be accessed by {{ config.custom_set
 $config['site_title'] = 'Mail-Skills';     // Site title
 $config['theme'] = 'mail-skills';       // Set the theme (defaults to "default")
 
+$config['js_path'] = "/javascripts";
+
 if($_SERVER["SERVER_ADDR"] == "127.0.0.1")
 {
   $config['production'] = FALSE;

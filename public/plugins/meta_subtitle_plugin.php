@@ -3,9 +3,8 @@
 /**
  * Example hooks for a Pico plugin
  *
- * @author Gilbert Pellegrom
- * @link http://pico.dev7studios.com
- * @license http://opensource.org/licenses/MIT
+ * @author Christian Schmidt
+ * @link http://superbilk.com
  */
 class Meta_Subtitle_Plugin {
 
