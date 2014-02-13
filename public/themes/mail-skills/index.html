@@ -41,6 +41,7 @@
               {% include '_mailchimp_form.html.twig' %}
             </div>
           </div>
+          <div id="socialshareprivacy"></div>
         </div>
 
         <div class="col-sm-3 col-sm-offset-1">
@@ -84,6 +85,34 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="{{ theme_url }}/javascripts/jquery-2.1.0.min.js"></script>
+    <script src="{{ theme_url }}/javascripts/jquery.socialshareprivacy.min.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($){
+        if($('#socialshareprivacy').length > 0){
+          $('#socialshareprivacy').socialSharePrivacy({
+            services : {
+              facebook : {
+                'status'    : 'on',
+                'dummy_img' : "{{ theme_url }}/javascripts/socialshareprivacy/images/dummy_facebook_en.png"
+              },
+              twitter : {
+                'status'    : 'on',
+                'dummy_img' : "{{ theme_url }}/javascripts/socialshareprivacy/images/dummy_twitter.png"
+              },
+              gplus : {
+                'status'    : 'on',
+                'dummy_img' : "{{ theme_url }}/javascripts/socialshareprivacy/images/dummy_gplus.png"
+              }
+            },
+            "css_path"  : "{{ theme_url }}/javascripts/socialshareprivacy/socialshareprivacy.css",
+            "lang_path" : "{{ theme_url }}/javascripts/socialshareprivacy/lang/",
+            "language"  : "en",
+            "uri"       : "http://mail-skills.com",
+            'alignment' : 'vertical'
+          });
+        }
+      });
+    </script>
     <script src="{{ theme_url }}/javascripts/bootstrap/bootstrap.min.js"></script>
     <script src="{{ theme_url }}/javascripts/mailchimp.min.js"></script>
     {% if config.production %}
