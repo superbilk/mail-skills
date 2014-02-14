@@ -10,9 +10,9 @@ We run free email courses that introduce you to methods and skills that will mak
 
 We introduce each topic by setting the context: <em>When is this method helpful.</em> <em>How did it work for us.</em> Then we add the single best link on the topic we have come across in years and years of reading about Agile and PO topics. That one link we constantly send out to friends and colleagues whenever they need advice on that topic.
 
-Topics range from User Stories, move on to Business Model Canvas and end near Impact Mapping.
+Topics range from User Stories, move on to Business Model Canvas and end near Impact Mapping. It's a broad range of methods and skills we think every Product Owner should know about.
 
-Would you like get a smoother start into your new role? Then sign up and be the first one to receive the weekly featured skill when we’re starting (probably within Feb 2014).
+Would you like get a smoother start into your new role? Then sign up!
 
 <split>
 
