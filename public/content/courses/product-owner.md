@@ -18,7 +18,7 @@ Would you like get a smoother start into your new role? Then sign up!
 
 * Product Ownership in a Nutshell
 * All about User Stories
-* Sprint goal
+* One Goal to focus them all
 * Definition of Ready
 * Story splitting
 * Saying No
