@@ -20,9 +20,9 @@ Would you like get a smoother start into your new role? Then sign up!
 * Product Ownership in a Nutshell
 * All about User Stories
 * One Goal to focus them all
+* Saying No
 * Definition of Ready
 * Story splitting
-* Saying No
 * Business Model Canvas
 * Story Mapping
 * Design Studio
