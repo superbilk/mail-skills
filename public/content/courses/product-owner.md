@@ -2,6 +2,7 @@
 Title: Product Owner Course
 Subtitle: Methods and skills that will make you better and more effective in your new role
 Course: product-owner
+Description: Mail-Skills is a weekly email course for Product Owners.
 */
 
 Are you starting out in an Agile environment or a Scrum Role? Or just wondering what methods people in the Agile camp are using? Great, you’ve come to the right <s>place</s> mailing list!
