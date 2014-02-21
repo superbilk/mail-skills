@@ -20,4 +20,5 @@
 
 ## Minify Javascript ##
 
-    uglifyjs file.js -o file.min.js
+    uglifyjs affix.js alert.js button.js carousel.js collapse.js dropdown.js tab.js transition.js scrollspy.js modal.js tooltip.js popover.js -co bootstrap.min.js
+
