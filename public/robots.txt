@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: http://mail-skills.com/sitemap.xml
