@@ -34,10 +34,9 @@
         <div class="col-sm-8 content-main">
           <div class="content">
             {{ content|split('<split>')[0] }}
-            <p>Ah, one more thing: It’s free!</p>
 
             <div class="signup-well">
-              <h2>Sign up for Mail-Skills <em>{{ meta.title }}</em></h2>
+              <h2>Sign up for Mail-Skills <em>{{ meta.coursetitle }}</em></h2>
               {% include '_mailchimp_form.html.twig' %}
             </div>
           </div>

@@ -1,6 +1,7 @@
 /*
 Title: Scrum Master Course
 Subtitle: Methods and skills that will make you better and more effective in your new role
+Coursetitle: Scrum Master Course
 Course: scrum-master
 Description: Mail-Skills is a weekly email course for Scrum Masters.
 */

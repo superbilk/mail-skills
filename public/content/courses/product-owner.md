@@ -1,6 +1,7 @@
 /*
 Title: Product Owner Course
 Subtitle: Methods and skills that will make you better and more effective in your new role
+Coursetitle: Product Owner Course
 Course: product-owner
 Description: Mail-Skills is a weekly email course for Product Owners.
 */
@@ -13,7 +14,7 @@ We introduce each topic by setting the context: <em>When is this method helpful.
 
 Topics range from User Stories, move on to Business Model Canvas and end near Impact Mapping. It's a broad range of methods and skills we think every Product Owner should know about.
 
-Would you like get a smoother start into your new role? Then sign up!
+Would you like get a smoother start into your new role? Then sign up for free!
 
 <split>
 
