@@ -39,3 +39,4 @@ else
 }
 
 $config['front_page'] = "/courses/product-owner";
+$config['google_site_verification'] = "googledf753e2a01eab14f.html";
