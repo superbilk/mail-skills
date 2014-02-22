@@ -9,11 +9,23 @@
 
 class Front_Page_Plugin {
 
+	private $is_404;
+
+	public function __construct()
+	{
+		$this->is_404 = false;
+	}
+
+	public function after_404_load_content()
+	{
+		$this->is_404 = true;
+	}
+
 	public function after_load_content(&$file, &$content)
 	{
 		global $config;
 
-		if (!empty($config['front_page'])) {
+		if ( (!$this->is_404) && (!empty($config['front_page'])) ) {
 
 			$file = CONTENT_DIR . ltrim($config['front_page'],'/');
 			// Get the file and content
@@ -29,4 +41,5 @@ class Front_Page_Plugin {
 			}
 		}
 	}
+
 }
