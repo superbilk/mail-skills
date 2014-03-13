@@ -22,7 +22,7 @@ Would you like get a smoother start into your new role? Then sign up for free!
 * All about User Stories
 * One Goal to focus them all
 * Saying No
-* Story splitting
+* Splitting User Stories
 * Definition of Ready
 * Business Model Canvas
 * Story Mapping
