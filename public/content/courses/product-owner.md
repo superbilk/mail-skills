@@ -14,7 +14,7 @@ We introduce each topic by setting the context: <em>When is this method helpful.
 
 Topics range from User Stories, move on to Business Model Canvas and end near Impact Mapping. It's a broad range of methods and skills we think every Product Owner should know about.
 
-Would you like get a smoother start into your new role? Then sign up for free!
+Would you like get a smoother start into your new role? Then sign up now!
 
 <split>
 
