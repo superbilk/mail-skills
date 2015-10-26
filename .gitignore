@@ -2,7 +2,7 @@
 .sass-cache
 *.scssc
 # Composer
-composer.lock
+# composer.lock
 composer.phar
 
 # Twig
