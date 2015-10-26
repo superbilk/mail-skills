@@ -27,3 +27,5 @@ Thumbs.db
 
 .sass-cache
 *.scssc
+
+/vendor/
