@@ -1,24 +1,6 @@
-# mail-skills Setup
+Pico
+====
 
+Pico is a stupidly simple, blazing fast, flat file CMS. See http://pico.dev7studios.com for more info.
 
-## Setup
-
-    gem install bootstrap-sass
-    npm install uglifyjs -g
-    git clone git@github.com:superbilk/mail-skills.git
-
-
-## Update Bootstrap ##
-
-    gem update bootstrap-sass
-
-
-## Compile CSS ##
-
-    compass compile
-
-
-## Minify Javascript ##
-
-    uglifyjs affix.js alert.js button.js carousel.js collapse.js dropdown.js tab.js transition.js scrollspy.js modal.js tooltip.js popover.js -co bootstrap.min.js
-
+[![I Love Open Source](http://www.iloveopensource.io/images/logo-lightbg.png)](http://www.iloveopensource.io/projects/524c55dcca7964c617000756)
